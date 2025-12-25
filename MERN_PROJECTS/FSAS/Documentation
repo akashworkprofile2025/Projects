@@ -1,0 +1,107 @@
+🔐 MERN Authentication System (JWT Based)
+Full Stack Authenticate System:
+
+A beginner-friendly Full Stack Authentication System built using MERN Stack.
+This project demonstrates User Signup, Login, JWT Authentication, Protected Routes, Role Handling, and a React (Vite) frontend.
+
+💡 Designed especially for freshers – clean structure, simple logic, and easy-to-understand flow.
+
+📌 Features
+
+✅ Backend Features
+
+User Signup & Login
+
+Password Hashing using bcrypt
+
+JWT Token Generation & Expiry
+
+Protected Routes using Middleware
+
+Role-based system (User / Admin ready)
+
+Secure API structure
+
+✅ Frontend Features
+
+Built with Vite + React
+
+Axios for API calls
+
+JWT stored in localStorage
+
+Protected Dashboard Route
+
+Welcome User by Name
+
+Logout functionality
+
+Bootstrap + Bootstrap Icons UI
+
+🛠 Tech Stack
+Backend
+Node.js
+Express.js
+MongoDB
+Mongoose
+JWT
+bcrypt
+cors
+
+Frontend
+React (Vite)
+Axios
+React Router DOM
+Bootstrap
+Bootstrap Icons
+
+📁 Project Structure
+backend/
+│── server.js
+│── config/
+│   └── db.js
+│── models/
+│   └── User.js
+│── routes/
+│   └── authRoutes.js
+│── middleware/
+│   └── authMiddleware.js
+│── .env
+
+Frontend
+frontend/
+│── src/
+│   ├── api/api.js
+│   ├── pages/
+│   │   ├── Login.jsx
+│   │   ├── Signup.jsx
+│   │   └── Dashboard.jsx
+│   ├── components/
+│   │   └── ProtectedRoute.jsx
+│   ├── App.jsx
+│   └── main.jsx
+
+⚙️ Installation & Setup
+https://github.com/akashworkprofile2025/Projects.git
+
+Authentication Flow
+
+User signs up → data saved in MongoDB (password hashed)
+
+User logs in → backend generates JWT token
+
+Token + user name stored in localStorage
+
+ProtectedRoute checks token before accessing dashboard
+
+Dashboard displays Welcome UserName
+
+Logout clears localStorage and redirects to login
+
+Pages Tested On 
+Login Page
+Signup Page
+Dashboard Page
+
+Akash Biswas
+MERN Stack Developer
