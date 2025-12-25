@@ -1,0 +1,11 @@
+.formbox{
+    background-color: #2C2638 !important;
+ -webkit-box-shadow: 2px 3px 17px -7px rgba(0, 0, 0, 1);
+-moz-box-shadow: 2px 3px 17px -7px rgba(0, 0, 0, 1);
+box-shadow: 2px 3px 17px -7px rgba(0, 0, 0, 1);
+}
+
+.btnconf{
+    background-color: #6D54B5 !important;
+    color: rgb(200, 219, 236);
+}
