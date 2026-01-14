@@ -1,7 +1,6 @@
 import { useState } from "react";
 import api from "../api/axios";
 import { useNavigate } from "react-router-dom";
-import Register from "./Register";
 
 const Login = () => {
   const [username, setUsername] = useState("");
