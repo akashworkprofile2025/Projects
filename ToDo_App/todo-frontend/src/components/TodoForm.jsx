@@ -1,4 +1,5 @@
 import { useState } from "react";
+import '../UI/TodoForm.css'
 const TodoForm = ({ addTodo }) => {
   const [title, setTitle] = useState("");
 
@@ -14,8 +15,8 @@ const TodoForm = ({ addTodo }) => {
         placeholder="New Todo"
         value={title}
         onChange={(e) => setTitle(e.target.value)} />
-      <button className="btn btn-primary">
-        <i className="bi bi-plus-lg"></i>
+      <button className="btn btn-primary rotate-center">
+        <i className="bi bi-plus-lg "></i>
       </button>
     </form>
   );
