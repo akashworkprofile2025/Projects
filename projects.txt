@@ -18,9 +18,11 @@ Clean CRUD operations
 
 Simple UI + backend logic
 
+
 3️⃣ Blog Application
 
-Level: Beginner → Intermediate
+Use Technology: express cors mongoose bootstrap bootstrap-icons
+import export 
 
 Features
 
@@ -32,7 +34,7 @@ Rich text editor
 
 Comments system
 
-Likes feature (optional)
+Post Likes feature 
 
 Skills gained
 
@@ -43,6 +45,11 @@ Authorization
 MongoDB relationships
 
 React routing
+
+during create post take title , cover image , content 
+
+show cover image and  creation time on post
+
 
 4️⃣ Expense Tracker
 
